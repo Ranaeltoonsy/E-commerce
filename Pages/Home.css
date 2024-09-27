@@ -1,0 +1,40 @@
+@font-face{
+    font-family: 'Chau Philomene One';
+    src: url("/Assets/Chau_Philomene_One/ChauPhilomeneOne-Regular.ttf")
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Chau Philomene One' ;
+}
+  
+.searchBar{
+    position: relative;
+    width: 260px;
+    max-width: 100%;
+}
+ hr{
+    border: 1px solid #0000003f;
+ }
+
+.searchIcon{
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #555;
+  }
+
+  .eraaSoftLogo{
+    object-fit: cover;
+  }
+
+/* @media screen and (max-width: 767px){
+    .collapse{
+        display: none;
+    }
+} */
